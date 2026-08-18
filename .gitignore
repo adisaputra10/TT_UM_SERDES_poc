@@ -9,3 +9,22 @@ test/sim_build
 test/__pycache__/
 test/results.xml
 test/gate_level_netlist.v
+
+# OpenLane build artifacts
+TT_UM_SERDES_poc/
+gds_images/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary TCL scripts
+dump_rc.tcl
+dump_rc_patched.tcl
+flow_files.txt
+
+# Test outputs
+test_designs/
+uploads/
+results/
